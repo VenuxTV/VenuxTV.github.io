@@ -87,7 +87,10 @@ game.checkCirclePosition( circles[4] );
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            
+            if ( circle.x > canvas.width ) {
+                circle.x = 0; } if (circle.y > canvas.height){
+                    circle.y = canvas.width
+                }
 
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
